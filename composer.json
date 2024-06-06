@@ -1,0 +1,28 @@
+{
+    "name": "dimovdev/ekatte-search",
+    "description": "Ekatte search for a job task",
+    "keywords": [],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Dimov",
+            "email": "idimovdev@gmail.com"
+        }
+        ],
+    "autoload": {
+        "psr-4": {
+            "EkatteSearch\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1.0",
+        "ext-pdo": "*"
+    },
+    "scripts": {
+        "database-script": "@php src/Script/dbInsert.php"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
