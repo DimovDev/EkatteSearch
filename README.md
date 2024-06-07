@@ -1,6 +1,7 @@
 Simple search in EKATTE Base
 How to run
-composer install to install dependents and insert data in database 
+
+composer install to install dependents and insert data in the database 
 if not inserted automatically
 run composer run-script database-script
 
